@@ -284,7 +284,7 @@ class _EditorScreenState extends ConsumerState<EditorScreen> {
     );
   }
 
-  Widget _buildActionTile(IconData icon, String title, VoidCallback onTap) {
+  Widget _buildActionTile(FaIconData icon, String title, VoidCallback onTap) {
     return ListTile(
       leading: FaIcon(icon, color: EdgeTheme.lavender, size: 20),
       title: Text(title, style: const TextStyle(color: Colors.white)),
@@ -324,7 +324,7 @@ class _EditorScreenState extends ConsumerState<EditorScreen> {
     );
   }
 
-  Widget _buildToolButton(IconData icon, VoidCallback onTap, String tooltip) {
+  Widget _buildToolButton(FaIconData icon, VoidCallback onTap, String tooltip) {
     return Tooltip(
       message: tooltip,
       child: InkWell(
@@ -743,7 +743,7 @@ class _EditorScreenState extends ConsumerState<EditorScreen> {
     );
   }
 
-  IconData _fileIcon(String ext) {
+  FaIconData _fileIcon(String ext) {
     switch (ext) {
       case 'pdf':
         return FontAwesomeIcons.filePdf;

@@ -474,7 +474,7 @@ class _LiveChatScreenState extends ConsumerState<LiveChatScreen>
 // ── Helper Widgets ──────────────────────────────────────────────────────────
 
 class _ControlIcon extends StatelessWidget {
-  final IconData icon;
+  final FaIconData icon;
   final Color color;
   final VoidCallback? onTap;
   final bool isActive;

@@ -313,7 +313,7 @@ class _AccelerationConfigState extends ConsumerState<AccelerationConfig> {
   }
 
   Widget _getRuntimeIcon(LlmRuntime runtime) {
-    IconData icon;
+    FaIconData icon;
     Color color;
 
     switch (runtime) {

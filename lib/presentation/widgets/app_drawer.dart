@@ -243,7 +243,7 @@ class AppDrawer extends ConsumerWidget {
 
   Widget _buildNavItem(
     BuildContext context, {
-    required IconData icon,
+    required FaIconData icon,
     required String label,
     String? route,
     String? currentRoute,

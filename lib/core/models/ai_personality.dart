@@ -53,7 +53,7 @@ enum AIOccupation {
     }
   }
 
-  IconData get icon {
+  FaIconData get icon {
     switch (this) {
       case AIOccupation.assistant: return FontAwesomeIcons.robot;
       case AIOccupation.teacher: return FontAwesomeIcons.chalkboardUser;
@@ -94,7 +94,7 @@ class AIPersonality {
   final String? voiceLanguage;
   final double voicePitch;
   final double voiceSpeed;
-  final IconData avatarIcon;
+  final FaIconData avatarIcon;
 
   const AIPersonality({
     required this.id,
@@ -221,7 +221,7 @@ class AIPersonality {
     String? voiceLanguage,
     double? voicePitch,
     double? voiceSpeed,
-    IconData? avatarIcon,
+    FaIconData? avatarIcon,
   }) {
     return AIPersonality(
       id: id ?? this.id,
