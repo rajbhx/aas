@@ -1,3 +1,5 @@
+import com.android.build.gradle.LibraryExtension
+
 allprojects {
     repositories {
         google()
@@ -15,6 +17,19 @@ subprojects {
     val newSubprojectBuildDir: Directory = newBuildDir.dir(project.name)
     project.layout.buildDirectory.value(newSubprojectBuildDir)
 }
+
+subprojects {
+    if (project.name == "async_wallpaper") {
+        plugins.withId("com.android.library") {
+            extensions.configure<LibraryExtension>("android") {
+                sourceSets.named("main") {
+                    res.srcDir(rootProject.file("async_wallpaper_res"))
+                }
+            }
+        }
+    }
+}
+
 subprojects {
     project.evaluationDependsOn(":app")
 }
