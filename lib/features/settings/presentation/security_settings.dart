@@ -123,7 +123,7 @@ class SecuritySettings extends ConsumerWidget {
 
 /// Privacy item widget
 class _PrivacyItem extends StatelessWidget {
-  final IconData icon;
+  final FaIconData icon;
   final String title;
   final String description;
 
@@ -198,7 +198,7 @@ class _SectionHeader extends StatelessWidget {
 
 /// Settings card widget
 class _SettingsCard extends StatelessWidget {
-  final IconData icon;
+  final FaIconData icon;
   final String title;
   final String subtitle;
   final Widget? trailing;

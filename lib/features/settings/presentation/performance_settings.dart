@@ -118,7 +118,7 @@ class _SectionHeader extends StatelessWidget {
 
 /// Settings card widget
 class _SettingsCard extends StatelessWidget {
-  final IconData icon;
+  final FaIconData icon;
   final String title;
   final String subtitle;
   final Widget? trailing;

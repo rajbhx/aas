@@ -194,7 +194,7 @@ class _ParamInfo extends StatelessWidget {
 
 /// Slider setting widget
 class _SliderSetting extends StatelessWidget {
-  final IconData icon;
+  final FaIconData icon;
   final String title;
   final String subtitle;
   final double value;

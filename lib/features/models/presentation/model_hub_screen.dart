@@ -395,7 +395,7 @@ class _ModelHubScreenState extends ConsumerState<ModelHubScreen> {
     );
   }
 
-  Widget _buildModeIcon({required IconData icon, required bool isSelected, required VoidCallback onTap}) {
+  Widget _buildModeIcon({required FaIconData icon, required bool isSelected, required VoidCallback onTap}) {
     return GestureDetector(
       onTap: onTap,
       child: AnimatedContainer(
@@ -459,7 +459,7 @@ class _ModelHubScreenState extends ConsumerState<ModelHubScreen> {
 
   Widget _buildCategoryChip({
     required String label,
-    required IconData icon,
+    required FaIconData icon,
     required bool isSelected,
     required VoidCallback onTap,
   }) {

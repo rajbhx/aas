@@ -255,7 +255,7 @@ class _TechItem extends StatelessWidget {
 
 /// Info card widget
 class _InfoCard extends StatelessWidget {
-  final IconData icon;
+  final FaIconData icon;
   final String title;
   final String value;
   final VoidCallback? onTap;

@@ -170,7 +170,7 @@ class _HFAccountScreenState extends ConsumerState<HFAccountScreen> {
   Widget _buildStatusCard({
     required String title,
     required String value,
-    required IconData icon,
+    required FaIconData icon,
     required Color color,
     required String description,
   }) {
@@ -265,7 +265,7 @@ class _HFAccountScreenState extends ConsumerState<HFAccountScreen> {
     );
   }
 
-  Widget _buildActionButton({required String label, required IconData icon, required VoidCallback onTap}) {
+  Widget _buildActionButton({required String label, required FaIconData icon, required VoidCallback onTap}) {
     return ListTile(
       onTap: onTap,
       tileColor: EdgeTheme.surfaceColor,

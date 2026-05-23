@@ -760,7 +760,7 @@ class _EngineSelectionDialogState extends State<_EngineSelectionDialog> {
 
   Widget _buildEngineOption({
     required LlmRuntime runtime,
-    required IconData icon,
+    required FaIconData icon,
     required String label,
     required String description,
     required bool recommended,

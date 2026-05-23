@@ -91,7 +91,7 @@ class ModelInfo {
   }
 
   /// Get model category icon
-  IconData get categoryIcon {
+  FaIconData get categoryIcon {
     switch (category) {
       case ModelCategories.text:
         return FontAwesomeIcons.penNib;

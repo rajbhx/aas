@@ -131,7 +131,7 @@ class _AccelerationConfigState extends ConsumerState<AccelerationConfig> {
               children: [
                 Row(
                   children: [
-                    Icon(
+                    FaIcon(
                       hasGpu ? FontAwesomeIcons.display : FontAwesomeIcons.xmark,
                       color: hasGpu ? Colors.green : Colors.red,
                       size: 16,

@@ -136,7 +136,7 @@ class SettingsHub extends ConsumerWidget {
 
 /// Category tile widget
 class _CategoryTile extends StatelessWidget {
-  final IconData icon;
+  final FaIconData icon;
   final Color iconColor;
   final String title;
   final String subtitle;
